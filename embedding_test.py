@@ -3,7 +3,8 @@ import requests
 import json
 
 # ✅ 1) OpenAI 임베딩 생성
-client = OpenAI(api_key="api_key")  # ← 여기에 네 Key 입력
+client = OpenAI(api_key="OPENAI_API_KEY")  # ← 여기에 네 Key 입력
+
 
 text = "도커로 OpenSearch를 배우는 강의"
 
